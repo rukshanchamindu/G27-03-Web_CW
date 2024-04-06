@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;    
+    color: #fff; 
+}
+
+.logo-header{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+}
+#grp-mem{
+    position: absolute;
+    top: 75%;
+    left: 45%;
+}
+#members{
+    position: absolute;
+    top: 79%;
+    left: 42%;
+    font-size: small;
+    font-weight: 500;
+}
+.mission p{
+    position: absolute;
+    text-align:center;
+    top: 86%;
+    left: 22%;
+}
+
+.loader{
+    display: flex;
+    gap: 0.5rem;
+}
+.loader .dot{
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+
+    animation: bounce 0.5s infinite alternate;
+}
+@keyframes bounce {
+    to{
+        translate: 0 -0.5rem;
+    }
+}
+.loader .dot:nth-child(2){
+    animation-delay: 100ms;
+}
+.loader .dot:nth-child(3){
+    animation-delay: 200ms;
+}
+.loader{
+    position: absolute;
+    top: 50%;
+    left: 48%;
+}
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}

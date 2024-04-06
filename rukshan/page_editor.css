@@ -1,0 +1,21 @@
+h1{
+    background-color:rgb(141, 244, 211);
+    text-align: center;
+}
+
+.details p{
+    text-align: center;
+}
+
+.square-form{
+    background-color:rgb(141, 244, 211);
+    width:1280px;
+    height:600px;
+    margin-left: 100px;
+    border: 1px solid black;
+    
+}
+
+.content p, a{
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: aqua;
+    background-image: url("images/image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    padding: 250px;
+}
+hr{
+    width: 70%;
+    margin-left: 1;
+}
+
+h1{
+    text-align: center;
+}
+.content {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.content-img{
+    display: flex;
+    align-items: flex-start;
+}
+
+img{
+    max-width: 300px;
+    margin-right: 20px;
+    
+}

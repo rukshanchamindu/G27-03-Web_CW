@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile</title>
+  <link rel="stylesheet" href="user_profile.css">
+</head>
+<body>
+  <header>   
+      <nav>
+          <div class="logo">
+              <img src="logo.png" alt="Website Logo">
+          </div>
+          <ul class="nav-menu">
+              <li class="nav-item"><a href="#" id="home">Home</a></li>
+              <li class="nav-item"><a href="#" id="gallery">Gallery</a></li>
+              <li class="nav-item"><a href="#" id="shop">Shop</a></li>
+              <li class="nav-item active"><a href="user_profile.html" id="user-profile">User Profile</a></li>
+              <li class="nav-item"><a href="#" id="feedback">Feedback</a></li>
+              <li class="nav-item"><a href="#" id="sitemap">Sitemap</a></li>
+              <li class="nav-item"><a href="team.html" id="team">Team</a></li>
+          </ul>
+      </nav>
+  </header>
+
+    <div class="overlay" id="overlay"></div>
+
+    <div class="prompt" id="prompt">
+        <button class="button button-close" onclick="close_prompt()">x</button>
+        <p id="question_Title">Step 1 Personal details | Question 1/4</p>
+        
+        <p id="question_Text">?</p>
+        <input type="text" id="answer">
+        <br><br>
+        <button class="button button-next" onclick="next()">Next</button>
+        <button class="button button-skip" onclick="skip()">Skip</button>
+    </div>
+
+    <div id="Progress-container">
+        <button id="btn_start"  onclick="showPopup()" class="button button-start">Start</button>
+        <p id="progressText">Profile Completed 0%</p>
+        <div id="progressBar-bg">
+            <div id="progressBar"></div>
+        </div>
+         
+    </div>
+ 
+    <table id="answersTable">
+        <thead>
+        </thead>
+        <tbody id="answersTableBody">
+        </tbody>
+    </table>
+    <button id="btn_submit" class="button button-submit">Submit</button>
+    <br><br>
+
+    <script src="user_profile.js"></script>
+
+    <footer>
+        <p>&copy; 2024 WaterAid. All rights reserved.</p>
+        <p>Created by: <a href="page_editor.html" target=”_blank”>Rukshan Chamindu</a></p>
+    </footer>
+</body>
+</html>

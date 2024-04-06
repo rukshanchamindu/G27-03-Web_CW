@@ -1,0 +1,110 @@
+h1{
+    text-align: center; 
+}
+.main_heading{
+    font-size: 3rem;
+}
+.h3{
+    font-size: 2rem;
+    text-align: center;
+}
+.para{
+    font-size: 1.5rem;
+}
+.filtration{
+    float: right;
+    margin-left: 20px;
+}
+.sanitation{
+    float: left;
+    margin-right: 20px;
+}
+.scarcity{
+    float: right;
+    margin-left: 20px;
+}
+.box{
+    background-color: rgb(153, 235, 207);
+    text-align: center; /* Center align text */
+    padding: 20px; /* Add padding */
+}
+.menu-links {
+    background-color: rgb(255, 255, 255); /* White background */
+    padding: 10px; /* Add padding for spacing */
+    display: block; /* Display as block to show vertically */
+    margin: 10px auto; /* Add margin for spacing */
+    border: 1px solid black; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    max-width: 350px; /* Set max width to control width */
+    text-align: center; /* Center align text */
+}
+.box1{
+    background-color: rgb(175, 242, 253);
+    padding: 30px;
+    overflow: hidden;
+}
+.box2{
+    background-color: rgb(203, 245, 253);
+    padding: 30px;
+}
+.box3{
+    background-color: rgb(227, 248, 252);
+    padding: 30px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+.logo img{
+    height: 50px;
+    margin-left: auto;
+}
+
+nav {
+    line-height: 2;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-item a {
+    text-decoration: none;
+    padding: .5rem 1rem;
+    color: #fff;
+}
+
+.nav-item a:hover {
+    background-color: #555;
+}
+
+.nav-item.active a {
+    background-color: #555;
+}   
+/* Footer */
+footer {
+    margin-top: auto;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}

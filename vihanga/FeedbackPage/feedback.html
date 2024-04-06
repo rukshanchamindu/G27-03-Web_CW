@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link rel="stylesheet" href="External_CSS.css">
+    <link rel="stylesheet" href="feedback_CSS.css">
+</head>
+<body>
+
+    <header>   
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Website Logo">
+            </div>
+  
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="../HomePage/Home.html" id="home">Home</a></li>
+                <li class="nav-item"><a href="#" id="gallery">Gallery</a></li>
+                <li class="nav-item"><a href="#" id="shop">Shop</a></li>
+                <li class="nav-item"><a href="#" id="user-profile">User Profile</a></li>
+                <li class="nav-item active"><a href="../FeedbackPage/feedback.html" id="feedback">Feedback</a></li>
+                <li class="nav-item"><a href="#" id="sitemap">Sitemap</a></li>
+                <li class="nav-item"><a href="#" id="team">Team</a></li>
+            </ul>
+  
+        </nav>
+    </header>
+    
+    <br><br><br><br><br><br><br>
+
+    <div class="form-container">
+        <div>
+            <h1>Feedback Form</h1>
+            <h3 class="fields">Required fields*</h3>
+        </div>
+
+        <form>
+
+            <div class="form-group">
+                <label for="name"><b>* </b>Enter your name: 
+                    <input type="text" id="name" name="name" placeholder="Enter name here" required><br><br>
+                </label>
+
+                <label for="email"><b>* </b>Enter your email:
+                    <input type="email" id="email" name="email" placeholder="example@example.com" required><br><br>
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label>Was this your first time visiting?</label><br>
+                <label>
+                    <input type="radio" id="first-time-yes" name="first-time" value="Yes" required>Yes
+                </label>
+                <label>
+                    <input type="radio" id="first-time-no" name="first-time" value="No" required>No
+                </label><br><br>
+            </div>
+
+            <div class="form-group">
+                <label>Was this website informative and easy to navigate through?</label><br>
+                <label>
+                    <input type="radio" id="navigation-yes" name="navigation" value="Yes" required>Yes
+                </label>
+                <label>
+                    <input type="radio" id="navigation-no" name="navigation" value="No" required>No
+                </label><br><br>
+            </div>
+
+            <div class="form-group">
+                <label for="improvements">If "No", suggest any improvements for the future:</label><br>
+                <textarea id="improvements" name="improvements" placeholder="Add your message here"></textarea><br><br><br>
+            </div>
+
+            <div class="form-group">
+                <label>How satisfied are you with Our services? Choose from 0 to 10, with 1 being "Not satisfied at all!" and 10 being "Extremely satisfied!"</label><br>
+                    <label>
+                        <input type="radio" id="rating-1" name="rating" value="1">1
+                    </label>
+                    <label>
+                        <input type="radio" id="rating-2" name="rating" value="2">2
+                    </label>
+                    <label>
+                        <input type="radio" id="rating-3" name="rating" value="3">3
+                    </label>
+                    <label>
+                        <input type="radio" id="rating-4" name="rating" value="4">4
+                    </label>
+                    <label>
+                        <input type="radio" id="rating-5" name="rating" value="5">5
+                    </label>
+                    <label>
+                        <input type="radio" id="rating-6" name="rating" value="6">6
+                    </label>
+                    <label>
+                        <input type="radio" id="rating-7" name="rating" value="7">7
+                    </label>
+                    <label>
+                        <input type="radio" id="rating-8" name="rating" value="8">8
+                    </label>
+                    <label>
+                        <input type="radio" id="rating-9" name="rating" value="9">9
+                    </label>
+                    <label>
+                        <input type="radio" id="rating-10" name="rating" value="10">10
+                    </label><br>
+            </div>
+
+            <div class="form-group">
+                <label>Would you recommend our services?</label><br>
+                <label>
+                    <input type="radio" id="recommend-yes" name="recommend" value="Yes" required>Yes
+                </label>
+                <label>
+                    <input type="radio" id="recommend-no" name="recommend" value="No" required>No
+                </label><br>
+            </div>
+
+            <div class="form-group">
+                <label>Would you like to receive updates about the website and any offers?</label><br>
+                <select name="like" id="like" required>
+                    <option value="">Select an option</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select><br><br><br>
+            </div>
+
+            <div class="form-group">
+                <label for="additional-comments">Do you have any additional questions or requests?</label><br>
+                <textarea id="additional-comments" name="additional-comments" placeholder="Add your message here"></textarea><br><br><br>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Submit"><br>
+            </div>
+
+            <div id="confirmation-message" style="display: none; color: green; font-weight: bold; margin-top: 10px;">
+                Thank you for your feedback! We have received your submission.
+            </div>
+
+        </form>
+
+    </div><br><br>
+
+    <script src="feedback_JS.js"></script>
+
+    <footer>
+        <p>&copy; 2024 Clean Water And Sanitation. All rights reserved.</p>
+        <p>Created by: <a href="../Edit_page_HTML.html" target="_blank">Vihanga</a></p>
+    </footer>
+    
+</body>
+
+</html>

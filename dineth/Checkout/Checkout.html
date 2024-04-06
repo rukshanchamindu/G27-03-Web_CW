@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="Checkout.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="container">
+        <header>
+            <div class="navg">
+                <nav>
+                    <div class="logo">
+                        <img src="img/logo.png" alt="Website Logo">
+                    </div>
+        
+                    <ul class="nav-menu">
+                        <li class="nav-item active"><a href="../HomePage/Home.html" id="home">Home</a></li>
+                        <li class="nav-item"><a href="#" id="gallery">Gallery</a></li>
+                        <li class="nav-item"><a href="/JS/CWR/CW2/Shop/Shop.html" id="shop">Shop</a></li>
+                        <li class="nav-item"><a href="#" id="user-profile">User Profile</a></li>
+                        <li class="nav-item"><a href="../FeedbackPage/feedback.html" id="feedback">Feedback</a></li>
+                        <li class="nav-item"><a href="#" id="sitemap">Sitemap</a></li>
+                        <li class="nav-item"><a href="#" id="team">Team</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="topic">
+                Shipping Details
+            </div>
+        </header>
+        
+        <form action="#" class="form">
+            <div class="colom-name">
+                <div class="input-box">
+                    <label>First name</label><label class="star">*</label>
+                    <input type="text" placeholder="Enter first name" required>
+                </div>
+    
+                <div class="input-box">
+                    <label>Last name</label><label class="star">*</label>
+                    <input type="text" placeholder="Enter last name" required>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <label>Email address</label><label class="star">*</label>
+                <input type="email" placeholder="Enter email" required>
+            </div>
+
+            <div class="input-box">
+                <label>Address</label><label class="star">*</label>
+                <input type="text" placeholder="Enter address" required>
+            </div>
+
+            <div class="colom-name">
+                <div class="input-box">
+                    <label>City</label><label class="star">*</label>
+                    <input type="text" placeholder="City" required>
+                </div>
+
+                <div class="input-box">
+                    <label>Country</label><label class="star">*</label>
+                    <input type="text" placeholder="Country" required>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <label>Phone</label><label class="star">*</label>
+                <input type="tel" placeholder="Phone" required>
+            </div>
+
+            <div class="topic" id="topic-2">
+                Payment Information
+            </div>
+
+            <div class="input-box">
+                <label>Card Number</label><label class="star">*</label>
+                <input type="text" placeholder="XXXX-XXXX-XXXX-XXXX" required>
+            </div>
+            <div class="input-box">
+                <label>Cardholder name</label><label class="star">*</label>
+                <input type="text" placeholder="Cardholder name" required>
+            </div>
+
+            <div class="colom-name">
+                <div class="input-box">
+                    <label>Expiry date</label><label class="star">*</label>
+                    <input type="date" placeholder="Expiry date" required>
+                </div>
+                <div class="input-box">
+                    <label>CVC</label><label class="star">*</label>
+                    <input type="text" placeholder="XXX" required>
+                </div>
+            </div>
+
+            <div class="sub-clr">
+                <button type="reset" id="clear">Clear</button>
+                <button type="submit" id="submit">Submit</button>
+            </div>
+            
+        </form>
+    </section>
+
+    <script src="Checkout.js"></script>
+</body>
+</html>
